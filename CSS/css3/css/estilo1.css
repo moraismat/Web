@@ -1,0 +1,22 @@
+/*#box{
+    width: 300px;
+    height: 300px;
+    background: url("../img/camera.png");
+    
+}
+
+/*#box h1{
+
+    background: rgba(255, 255, 255, 0.2); /*rgb: define a cor, rgba: define a transparencia*/
+    /*border-bottom: 2px solid #ffffff;
+}*/
+
+#box{
+    width: 300px;
+    height: 300px;
+    /*background: linear-gradient(to top, red, yellow);*/
+    /*background: linear-gradient(red, yellow);*/
+    /*background: linear-gradient(20deg, red, yellow);*/
+    background: radial-gradient(green, orange, blue, red, yellow); /*Cria um degrade*/
+
+}

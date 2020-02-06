@@ -1,0 +1,31 @@
+
+/*Criar a animação*/
+@keyframes animacao-box{
+
+    from { /*estado inicial*/
+        background: red; 
+        border-radius: opx;
+        top:0;
+        left:0
+    } 
+
+    to {  /*estado final*/
+        background: blue;
+        border-radius: 300px;
+        top: 200px;
+        left: 200px
+    }
+}
+
+#box {
+    width: 300px;
+    height: 300px;
+    background: red;
+    /*animation-name: animacao-box;
+    animation-duration: 5s;
+    animation-delay: 3s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;*/
+    animation: animacao-box 5s 0s infinite alternate;
+
+}
